@@ -1,0 +1,43 @@
+@mixin allScale {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainWrap {
+  @include allScale();
+}
+
+.mainImgWrap {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  @include allScale();
+}
+
+.slideButtonWrap {
+  z-index: 999;
+  position: absolute;
+  bottom: 10%;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slideButton {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.activeBtn {
+  background-color: white;
+  color: black;
+}
