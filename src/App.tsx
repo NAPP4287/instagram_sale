@@ -1,4 +1,4 @@
-import 'assets/css/App.css';
+import 'assets/css/App.scss';
 import React from 'react';
 import Main from 'pages/Main';
 

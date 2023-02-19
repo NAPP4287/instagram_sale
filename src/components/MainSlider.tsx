@@ -1,5 +1,5 @@
 import { mainImageData } from 'data/landingData';
-import styles from 'assets/css/main.module.css';
+import styles from 'assets/css/main.module.scss';
 import { useState } from 'react';
 
 const MainSlider = () => {

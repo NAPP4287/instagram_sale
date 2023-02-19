@@ -1,5 +1,5 @@
 // css
-import styles from 'assets/css/main.module.css';
+import styles from 'assets/css/main.module.scss';
 // components
 import MainSlider from 'components/MainSlider';
 
